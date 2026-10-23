@@ -13,7 +13,7 @@ Log every set, run load cycles, see your records and get honest numbers about yo
 
 <p align="center">
   <a href="https://github.com/Ramzesp2009/ramsgym-realses/releases/latest"><b>⬇ Download the latest APK</b></a>
-  &nbsp;·&nbsp; Android 10 or newer &nbsp;·&nbsp; English and Ukrainian
+  &nbsp;·&nbsp; Android 10 or newer &nbsp;·&nbsp; English, Ukrainian and German
 </p>
 
 ---
@@ -48,37 +48,47 @@ Log every set, run load cycles, see your records and get honest numbers about yo
 
 ## Statistics
 
-The start screen. A calendar of your training on top, then the weekly tonnage goal and four tabs underneath.
+The start screen. A calendar of your training on top, then the weekly tonnage goal and four tabs underneath: charts, goals, analysis and achievements.
 
 <table>
   <tr>
     <td width="33%"><img src="screenshots/statistics.jpg" /></td>
     <td width="33%"><img src="screenshots/calendar-day.jpg" /></td>
-    <td width="33%"><img src="screenshots/weekly-rings.jpg" /></td>
+    <td width="33%"><img src="screenshots/year.jpg" /></td>
   </tr>
   <tr>
-    <td><b>Calendar and weekly goal.</b> Each training day carries a dumbbell coloured by how hard the workout was — the share of hard working sets, not an average.</td>
+    <td><b>Calendar and weekly goal.</b> Each training day carries a dumbbell coloured by how hard the workout was — the share of hard working sets, not an average. Up to four friends show as coloured bars under the days they trained.</td>
     <td><b>A day in the calendar.</b> Tap a day to see its workouts: tonnage, exercises, sets and reps. Tap the card to open the full summary.</td>
-    <td><b>Rings by day.</b> Each weekday is a pair of rings — last week inside, this week outside. The larger of the two closes its ring, so you compare a day with itself.</td>
+    <td><b>The year.</b> Tap the month name to see twelve months on one screen — yours or a friend's: workouts, per week, tonnage and hours in the gym, each day coloured by difficulty.</td>
   </tr>
   <tr>
-    <td><img src="screenshots/weekly-race.jpg" /></td>
+    <td><img src="screenshots/year-weeks.jpg" /></td>
+    <td><img src="screenshots/training-charts.jpg" /></td>
+    <td><img src="screenshots/training-charts-2.jpg" /></td>
+  </tr>
+  <tr>
+    <td><b>Three ways to see a year.</b> Twelve small calendars, a strip of weeks with the longest break, or months as bars — switched in the ⋮ menu.</td>
+    <td><b>Charts.</b> One bar per workout on its date: program tonnage coloured by program day, over 1, 3, 6 or 12 months, with arrows through the whole history and a full-screen landscape view.</td>
+    <td><b>An exercise over time.</b> The heaviest set and the tonnage of any exercise, and the tonnage of a single program day.</td>
+  </tr>
+  <tr>
     <td><img src="screenshots/stats-goals.jpg" /></td>
     <td><img src="screenshots/stats-analysis.jpg" /></td>
+    <td><img src="screenshots/achievements.jpg" /></td>
   </tr>
   <tr>
-    <td><b>Race against last week.</b> Running totals from Monday: last week dashed across all seven days, this week solid up to today, and the gap said in words. Honest even when your training days move around.</td>
     <td><b>Goals.</b> A goal is either a 1RM (“150 kg max”) or weight for reps (“100 kg × 10”). Tap a goal to open the workout where its current best was set.</td>
     <td><b>Analysis at a glance.</b> A short summary of the program check; the full report lives in Planning.</td>
+    <td><b>Achievements</b> with their progress bars.</td>
   </tr>
   <tr>
-    <td><img src="screenshots/achievements.jpg" /></td>
     <td><img src="screenshots/continue-pill.jpg" /></td>
+    <td></td>
     <td></td>
   </tr>
   <tr>
-    <td><b>Achievements</b> with their progress bars.</td>
     <td><b>Continue.</b> While a workout is running, a pill with its timer sits in the corner of every tab and brings you back exactly where you stopped.</td>
+    <td></td>
     <td></td>
   </tr>
 </table>
@@ -176,7 +186,7 @@ A finished workout can be reopened for 30 minutes — for the set you forgot or 
     <td><img src="screenshots/library-group.jpg" /></td>
   </tr>
   <tr>
-    <td><b>Program days.</b> Days with their exercises, drag to reorder, supersets made by holding one exercise over another, and alternatives for each slot.</td>
+    <td><b>Program days.</b> Days with their exercises, drag to reorder, supersets made by holding one exercise over another, and alternatives for each slot. Each exercise can carry its own goal — strength, size, endurance — with its set and rep range under it.</td>
     <td><b>Exercise library.</b> 549 exercises grouped by muscle, with search, plus your own exercises.</td>
     <td><b>A muscle group</b> — every exercise with a start-and-finish photo and its equipment.</td>
   </tr>
@@ -250,8 +260,8 @@ Exercises that share muscles and a training day can run **in antiphase** so thei
   </tr>
   <tr>
     <td><b>Analysis</b> of a program or of a single exercise.</td>
-    <td><b>Program analysis.</b> Pick a goal — size, strength, endurance or fat loss — and the program is checked against it using what you actually did in the last 28 days (cut at your last break), not the template.</td>
-    <td><b>Checks and recommendations.</b> Weekly volume per muscle group, frequency, push : pull balance, rep ranges, the main lifts — with a recommendation for each miss.</td>
+    <td><b>Program analysis.</b> One goal for the whole program — or a goal for each exercise. Then every exercise gets its own card: weekly sets first, then reps, sets per workout and rest, each on a red–yellow–green line that shows where you stand. Counted from what you actually did in the last 28 days, not from the template.</td>
+    <td><b>Heavy and light days.</b> A strength exercise trained heavy one day and light the next is split by reps: heavy sessions are measured as strength, light ones as size — so the light day no longer spoils the strength numbers. Per week or per program pass, in the ⋮ menu.</td>
   </tr>
   <tr>
     <td><img src="screenshots/exercise-analysis.jpg" /></td>
@@ -325,7 +335,7 @@ A published workout is a snapshot: exercises, sets, photos and heart rate — ne
   </tr>
   <tr>
     <td><b>Profile.</b> Age (from your date of birth), weight, height, account, friends, privacy, health data and settings.</td>
-    <td><b>Settings.</b> One switch, <i>For experienced lifters</i>, hides and disables the smart warm-up, smart rest, time under load and load cycles — and brings them back untouched.</td>
+    <td><b>Settings.</b> <i>For experienced lifters</i> is one switch that hides and disables the smart warm-up, smart rest, time under load and load cycles — and brings them back untouched.</td>
     <td><b>Theme.</b> Dark or light, any accent colour from a slider — the whole palette is generated from one hue with readable contrast at every point.</td>
   </tr>
   <tr>
@@ -345,7 +355,7 @@ A published workout is a snapshot: exercises, sets, photos and heart rate — ne
   </tr>
   <tr>
     <td><b>Notifications.</b> The sound of the rest signal and reminders before your training days.</td>
-    <td><b>Language.</b> English or Ukrainian — exercise names follow the language too.</td>
+    <td><b>Language.</b> English, Ukrainian or German — exercise names follow the language too.</td>
     <td><b>Health and data.</b> Training experience, backups, and a full reset.</td>
   </tr>
   <tr>
@@ -357,6 +367,16 @@ A published workout is a snapshot: exercises, sets, photos and heart rate — ne
     <td><b>Training experience.</b> Years and records for the bench, squat and deadlift — answered once, used to set the pace of every cycle.</td>
     <td><b>Backups.</b> An automatic copy after every workout into Downloads (or a folder of your choice, Google Drive included), restore, and import from a GymUp backup.</td>
     <td></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/appearance.jpg" /></td>
+    <td><img src="screenshots/feed-card-settings.jpg" /></td>
+    <td><img src="screenshots/hints.jpg" /></td>
+  </tr>
+  <tr>
+    <td><b>Appearance.</b> Theme, capsule, what the workout overview and the feed card show, and which tips the app gives.</td>
+    <td><b>A live preview.</b> Every switch changes a real card on made-up numbers right above it, so you see what you turn off.</td>
+    <td><b>Warnings and tips.</b> Too many sets for one muscle in a workout, too few in a week, the tip of the day, deadlift, bench and squat hints — each with its own switch and its real card.</td>
   </tr>
 </table>
 
